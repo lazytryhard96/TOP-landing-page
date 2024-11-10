@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: Roboto, sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.dark{
+    background-color: #1f2937;
+}
+
+header a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo > a{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navbar, .hero-container, .boxes-container, .quote-container, .sign-up-container, .footer-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    padding: 16px 24px;
+}
+
+.navbar :nth-child(2){
+    margin-left: auto;
+}
+
+.navlist{
+    display: flex;
+    gap: 16px;
+    margin-top: 4px;
+}
+
+.hero-container{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 100px 24px;
+}
+
+.hero-left, .hero-right{
+    flex-basis: 500px;
+}
+
+.hero-right{
+    margin-left: 24px;
+    height: 178px;
+    background-color: gray;
+    color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
